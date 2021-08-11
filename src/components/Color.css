@@ -1,0 +1,26 @@
+.color {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-count {
+  font-size: 2rem;
+}
+
+.color-button {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.color-button:hover,
+.color-button:active {
+  cursor: pointer;
+}
